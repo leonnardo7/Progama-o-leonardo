@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(122, 112, 122);
+    color: rgb(0, 0, 0);
+    font-family: "Edu NSW ACT Cursive", cursive;
+    margin: 0px;
+    }
+    
+    h1 {
+    font-size: 40px;
+    }
+    
+    p{
+    font-size: 20px;
+    }
+    
+    header {
+    border-bottom: solid 2px rgb(248, 248, 248);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    }
+    
+    .chamada {
+    background: rgb(251, 247, 252);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    }
+    .chamada-texto {
+    margin-right: 5%;
+    }
+    
+    img{
+    height: 200px;
+    }
+    
+    .categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    }
+    
+    .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
